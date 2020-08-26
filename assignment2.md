@@ -7,9 +7,9 @@ Functions within ggplot() allowed for different sizing of the labels and the lin
 In the plot for the second level of administration boundaries, I couldn't figure out how to move the labels so that all text was visible.
 Also, the colours are not meant to represent anything in particular since I was just practicing using different names in R.
 
-## International Border (ADM0)
+### International Border (ADM0)
 ![](int0.png)
-## Provinces/Regions/Capital (ADM1)
+### Provinces/Regions/Capital (ADM1)
 ![](adm1.png)
-## Districts (ADM2)
+### Districts (ADM2)
 ![](adm2.png)
