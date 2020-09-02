@@ -1,7 +1,7 @@
 # Project One
 
 ### Deliverable
-The image below has a heatmap of Loas showing the population and population density within each province labeled.
+The image below has a heatmap of Laos showing the population and population density within each province labeled.
 Red represents a high population and yellow the lower, which can also be seen visually with the numerical values of popoulation density.
 Next to the map is a barplot showing the percentage of total population in Laos each province makes up.
 Again, red represents a higher percent of the total population.
