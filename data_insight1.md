@@ -1,4 +1,5 @@
-## Deep Transfer Learning
+## Data Insight
+### Deep Transfer Learning
 
 In simple terms, transfer learning is a machine learning method where a one model is trained then transfers what it learns to another model, hence the name.
 The idea is similar to how humans learn to do things like if you learn how to roller skate, then you can apply that knowledge on learning how to ice skate without completely starting from scratch.
