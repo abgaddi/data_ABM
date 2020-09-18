@@ -1,6 +1,6 @@
 # DATA 441: Agent Based-Modeling
 
-* **Last Updated**: 2020-09-01
+* **Last Updated**: 2020-09-17
 * **Repository**: data_abm
 
 ## Links to Responses
