@@ -3,12 +3,12 @@
 ## Part 1
 ### Deliverable
 The image below has a heatmap of Laos showing the population and population density within each province labeled.
-Red represents a high population and yellow the lower, which can also be seen visually with the numerical values of popoulation density.
+Red represents a high population and yellow the lower, which can also be seen visually with the numerical values of population density.
 Next to the map is a barplot showing the percentage of total population in Laos each province makes up.
 Again, red represents a higher percent of the total population.
 
 These plots were made by using the ggplot() package in R.
-Using the aggregated raster from the previous assignmnent, area was created manually, using the units() package, to then calculate population density for each province.
+Using the aggregated raster from the previous assignment, area was created manually, using the units() package, to then calculate population density for each province.
 The values of population density were then added as additional labels to the heatmap for ADM1.
 For the barplot, the provinces were rearranged from highest to lowest population and labeled by finding the percent of total population.
 
@@ -41,7 +41,7 @@ You can see the darker areas reflect similar density to the raster image.
 
 ![](pop_dist.png)
 
-The bw.ppl() command defines the value of the bandwidth that was then used in the spatial probablity function for describing the population density of the subdivision.
+The bw.ppl() command defines the value of the bandwidth that was then used in the spatial probability function for describing the population density of the subdivision.
 The bandwidth was then used with the density.ppl() function to produce the plot below.
 On the map, there are contour lines trying to capture the urban areas.
 I set the levels to 5e+7.
@@ -61,7 +61,7 @@ The final count was 12 de facto settlements.
 
 ### Looking at Zipf's Law
 
-The graph shows my attempt to look at Zipf's Law in relation to the settlments population and rank.
+The graph shows my attempt to look at Zipf's Law in relation to the settlements population and rank.
 Majority of the settlements follow the power law and show an inverse relationship, but there are some deviations from Zipf's Law within the middle.
 
 ![](zip.png)
@@ -70,10 +70,10 @@ Majority of the settlements follow the power law and show an inverse relationshi
 ## Part 2
 ### Roads and Health Centers
 **Roadways**
-To start looking at the accessibility of roads to health care centers, I first read in a roads shapeflie for Laos.
+To start looking at the accessibility of roads to health care centers, I first read in a roads shapefile for Laos.
 I filtered out the primary, secondary and tertiary roads for the subdivision.
 The primary roads are represented in the map a little thicker than the secondary and tertiary roads.
-You can see that the primary roads run through almost all the de facto settelements.
+You can see that the primary roads run through almost all the de facto settlements.
 Otherwise, the secondary and tertiary roads are able to reach the settlements outside of the primary road network making the level of service possible between settlements.
 
 ![](roads.png)
