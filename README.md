@@ -1,6 +1,6 @@
 # DATA 441: Agent Based-Modeling
 
-* **Last Updated**: 2020-09-19
+* **Last Updated**: 2020-10-16
 * **Repository**: data_abm
 
 ## Links to Responses
@@ -13,3 +13,5 @@
 [Data Insight 1 - 20/9/17](https://abgaddi.github.io/data_abm/data_insight1)
 
 [Project 1 - 20/9/19](https://abgaddi.github.io/data_abm/project_1)
+
+[Data Insight 2 - 20/10/16](https://abgaddi.github.io/data_abm/data_insight2)
