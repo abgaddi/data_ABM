@@ -18,7 +18,7 @@ Next, using numerical tests, the authors found the D1N4 and D1N6 models were abl
 
 ![](neighbours.png)
 
-In stage two, this is the simulated economic transaction where two agents that are neighbouring will trade with probability P<sub>t<sub> and the amount of money after the transaction is tracked.
+In stage two, this is the simulated economic transaction where two agents that are neighbouring will trade with probability P<sub>t and the amount of money after the transaction is tracked.
 There were two types models created to consider if an agent had saving propensity or not.
 By comparing the results to the CC-model, the authors were able to validate a more efficient model and thus use for a simulation where they were also able to measure wealth inequality through calculating a Gini coefficient and Kolkata index.
 In addition, they found this model to be simpler than the 2D-LGA model and less computationally expensive than the CC-model.
