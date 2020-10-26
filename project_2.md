@@ -88,7 +88,7 @@ After creating and testing the regression models, I genderated gain and ROC curv
 
 ![](rroc.png)
 
-### Random Forest Regression**
+### Random Forest Regression
 
 **Gain Curve**
 
