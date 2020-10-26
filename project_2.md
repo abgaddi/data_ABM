@@ -65,37 +65,40 @@ Transforming the data into percentiles had the best outcome.
 
 Following the heatmaps, I was able to split, train, and test multiple predicting models: multinomial, ranger, and random forest regression, and neural network.
 The variables I used to predict education were size, gender, and age.
-For the regression models, I genderated gain and ROC curves.
+I used the tidymodels, randomForest, and keras libraries to help build each model.
+After creating and testing the regression models, I genderated gain and ROC curves.
 
-**multinomial regression**
+### Multinomial Regression
 
-*gain curve*
+**Gain Curve**
 
 ![](mgain.png)
 
-*ROC curve*
+**ROC Curve**
 
 ![](mroc.png)
 
-**ranger regression**
+### Ranger Regression
 
-*gain curve*
+**Gain Curve**
 
 ![](rgain.png)
 
-*ROC curve*
+**ROC Curve**
 
 ![](rroc.png)
 
-**random forest regression**
+### Random Forest Regression**
 
-*gain curve*
+**Gain Curve**
 
 ![](rfgain.png)
 
-*ROC curve*
+**ROC Curve**
 
 ![](rfroc.png)
+
+### Neural Network
 
 I was also able to produce a neural network model for predicting education with normalized predictors.
 Using the script given in class, the plot below shows the predictions made by the model.
