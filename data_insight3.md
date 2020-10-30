@@ -23,6 +23,8 @@ The function ℓ(.) can also measure other test statistics.
 
 
 **Here is Algorithm 1 written by the authors:**
+
+
 ![](alg1.png)
 
 Algorithm 2 looks more closely at calculating the minimum window or time of these drifts.
