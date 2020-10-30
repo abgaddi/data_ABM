@@ -17,3 +17,5 @@
 [Data Insight 2 - 20/10/16](https://abgaddi.github.io/data_abm/data_insight2)
 
 [Project 2 - 20/10/25](https://abgaddi.github.io/data_abm/project_2)
+
+[Data Insight 3 - 20/10/30](https://abgaddi.github.io/data_abm/data_insight3)
