@@ -21,6 +21,8 @@ Lastly, *c<sub>i</sub>* is used in *div* to compare the mean value from the past
 When the mean value changes, Algorithmic Stability is affected; if *div* is greater than whatever the threshold *T* is set to be, a drift is detected.
 The function ℓ(.) can also measure other test statistics.
 
+
+**Here is Algorithm 1 written by the authors:**
 ![](alg1.png)
 
 Algorithm 2 looks more closely at calculating the minimum window or time of these drifts.
