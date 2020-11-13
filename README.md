@@ -20,4 +20,4 @@
 
 [Data Insight 3 - 20/10/30](https://abgaddi.github.io/data_abm/data_insight3)
 
-[Data Discovery - 20/11/13](https://abgaddi.github.io/data_abm/data_disc)
+[Data Discovery - 20/11/13](https://abgaddi.github.io/data_abm/data_disc.md)
