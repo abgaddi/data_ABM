@@ -50,8 +50,15 @@ Because it takes these into consideration, incorporating a gravity model would h
 
 ## ADM2 Subdivision
 
-o	How would you produce an OD matrix of these higher resolution entities? Which variables would you include? Are you lacking any data that would improve upon your model results?
-o	How would you modify the number of points departing from each origin? How would you determine each points destination?
-o	How would you modify the time variable? What scale is the temporal dimension at this level?
-o	How would the gravity model update these attributes in order to produce a different simulation of migration?
-o	How would you go about integrating migration and transport activities at the differing geospatial and temporal scales of these hierarchical levels?
+Lastly, using the defacto settlements from project 1 as center points, I produced a tessellation of Voronoi polygons for a couple ADM2 districts in Laos.
+The districts are Sisattanak, Chanthabuly, Xaysetha, and Hadxayfong.
+
+![](voronoi.png)
+
+Looking at this higher resolution, producing an OD matrix would be a bit different than on the country level.
+I would need the same census and migration information, but rather than between different provinces, I would need data of migration between each settlement.
+Otherwise the process of creating the actual OD matrix itself would be the same as the country level.
+Similarly, I would modify the number of points departing from each origin to be a better representation of the migration flow, and it might be easier to look at while at the higher resolution.
+Integrating migration and transport activities could be used as additional predictors in a gravity model.
+But this might change the fit of the model.
+Though, I think including those factors in the model could help make the gravity model and simulation closer to reality.
